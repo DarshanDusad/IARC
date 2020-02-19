@@ -26,7 +26,12 @@ Built a chassis for basic LSA08 Testing, as it's delicate and needs precision. <
 Read the manual of LSA, all three modes, Serial, analog, digital. <br />
 We are using analog for basic line following. (For now)(PD too) <br />
 Line following was done. Code & Video for the same are uploaded. <br />
-
+For the detection of turns we previously used junction pulse of the lsa08
+which automatically tells us if the bot detects a node. In order to find 
+the condition of turning we used a range of values for which
+the bot stays on the line. We used it as a boundary condition to determine
+till when we wanna turn. Also used the range of values to determine
+the particular cases of the special turn we gonna take.
 
 
 
