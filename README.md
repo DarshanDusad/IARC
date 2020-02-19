@@ -30,7 +30,7 @@ For the detection of turns we previously used junction pulse of the lsa08
 which automatically tells us if the bot detects a node. In order to find 
 the condition of turning we used a range of values for which
 the bot stays on the line. We used it as a boundary condition to determine
-till when we wanna turn. Also used the range of values to determine
+till when we wanna turn. We also used the range of values to determine
 the particular cases of the special turn we gonna take.
 
 
