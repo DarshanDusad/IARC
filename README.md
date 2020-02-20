@@ -27,7 +27,7 @@ Read the manual of LSA, all three modes- Serial, analog, digital. <br />
 A lot of time was spent in understanding the library of lsa08 but we realised that functions explained in library were not required for line following.  
 We are using analog mode of LSA for basic line following and  P and D of PID line following system. <br />
 Line following was done. Code & Video for the same are uploaded. <br />
-For the detection of turns we previously used junction pulse of the lsa08
+For the detection of turns we are using junction pulse of the lsa08
 which automatically tells us if the bot detects a node. In order to find 
 the condition of turning we used a range of values for which
 the bot stays on the line. We used it as a boundary condition to determine
